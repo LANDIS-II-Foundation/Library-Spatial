@@ -1,5 +1,16 @@
 // Copyright 2004-2006 University of Wisconsin
-// Author: James Domingo, UW-Madison, Forest Landscape Ecology Lab
+// All rights reserved. 
+//
+// The copyright holders license this file under the New (3-clause) BSD
+// License (the "License").  You may not use this file except in
+// compliance with the License.  A copy of the License is available at
+//
+//   http://www.opensource.org/licenses/bsd-license.php
+//
+// and is included in the NOTICE.txt file distributed with this work.
+//
+// Contributors:
+//   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
 using Edu.Wisc.Forest.Flel.Util;
 using NUnit.Framework;
@@ -231,20 +242,20 @@ namespace Wisc.Flel.Test.GeospatialModeling.Landscapes
                     nextActiveSite = activeSites[index];
                 else
                     nextActiveSite = null;
-    
+
                 Location expectedLocation = new Location(1, 0);
                     // so next in row-major order is (1,1)
-    
+
                 int siteCount = 0;
                 while (allSites.MoveNext()) {
                     Site site = allSites.Current;
                     siteCount++;
-    
+
                     Assert.AreEqual(landscape, site.Landscape);
-    
+
                     expectedLocation = RowMajor.Next(expectedLocation, grid.Columns);
                     Assert.AreEqual(expectedLocation, site.Location);
-    
+
                     if (nextActiveSite != null && nextActiveSite == expectedLocation) {
                         Assert.AreEqual(index+1, site.DataIndex);
                         Assert.AreEqual(true, site.IsActive);
@@ -260,7 +271,7 @@ namespace Wisc.Flel.Test.GeospatialModeling.Landscapes
                         Assert.AreEqual(false, site.IsActive);
                     }
                 }
-    
+
                 Assert.AreEqual(grid.Count, siteCount);
             }
         }
