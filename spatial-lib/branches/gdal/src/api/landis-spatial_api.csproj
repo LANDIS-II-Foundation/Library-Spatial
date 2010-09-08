@@ -33,6 +33,10 @@
   <ItemGroup>
     <Compile Include="Band.cs" />
     <Compile Include="Dimensions.cs" />
+    <Compile Include="IInputRaster.cs" />
+    <Compile Include="IOutputRaster.cs" />
+    <Compile Include="IRaster.cs" />
+    <Compile Include="IRasterFactory.cs" />
     <Compile Include="Pixel.cs" />
     <Compile Include="PixelBand.cs" />
   </ItemGroup>

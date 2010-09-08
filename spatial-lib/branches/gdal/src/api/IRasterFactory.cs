@@ -12,9 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-using Wisc.Flel.GeospatialModeling.Grids;
-
-namespace Wisc.Flel.GeospatialModeling.RasterIO
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// A factory that produces rasters by opening raster files for reading and
@@ -88,7 +86,7 @@ namespace Wisc.Flel.GeospatialModeling.RasterIO
         ///     </list>
         /// </exception>
         IInputRaster<TPixel> OpenRaster<TPixel>(string path)
-            where TPixel : IPixel, new();
+            where TPixel : Pixel, new();
 
         //---------------------------------------------------------------------
 
@@ -150,6 +148,6 @@ namespace Wisc.Flel.GeospatialModeling.RasterIO
         IOutputRaster<TPixel> CreateRaster<TPixel>(string     path,
                                                    Dimensions dimensions,
                                                    IMetadata  metadata)
-            where TPixel : IPixel, new();
+            where TPixel : Pixel, new();
     }
 }

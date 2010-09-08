@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.RasterIO
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// An input raster file from which pixel data are read.  Pixels are read
@@ -21,7 +21,7 @@ namespace Wisc.Flel.GeospatialModeling.RasterIO
     /// </summary>
     public interface IInputRaster<T>
         : IRaster
-        where T : IPixel, new()
+        where T : Pixel, new()
     {
         /// <summary>
         /// Reads the next pixel from the raster.

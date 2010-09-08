@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.RasterIO
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// An output raster file to which pixel data are written.  Pixels are
@@ -21,7 +21,7 @@ namespace Wisc.Flel.GeospatialModeling.RasterIO
     /// </summary>
     public interface IOutputRaster<T>
         : IRaster
-        where T : IPixel
+        where T : Pixel
     {
         /// <summary>
         /// The number of pixels written to the raster.
