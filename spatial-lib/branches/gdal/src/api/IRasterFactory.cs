@@ -1,5 +1,5 @@
 // Copyright 2005-2006 University of Wisconsin
-// All rights reserved. 
+// All rights reserved.
 //
 // The copyright holders license this file under the New (3-clause) BSD
 // License (the "License").  You may not use this file except in

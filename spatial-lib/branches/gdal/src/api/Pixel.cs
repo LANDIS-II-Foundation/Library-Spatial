@@ -1,5 +1,5 @@
 // Copyright 2010 Green Code LLC
-// All rights reserved. 
+// All rights reserved.
 //
 // The copyright holders license this file under the New (3-clause) BSD
 // License (the "License").  You may not use this file except in
@@ -31,8 +31,8 @@ namespace Landis.SpatialModeling
         /// {
         ///     public Band<float> Slope  = "slope : tangent of inclination angle (rise / run)";
         ///     public Band<short> Aspect = "aspect : degrees clockwise from north (0 to 359)";
-        /// 
-        ///     public MyPixel() 
+        ///
+        ///     public MyPixel()
         ///     {
         ///         SetBands(Slope, Aspect);
         ///     }
