@@ -11,6 +11,7 @@
 //
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
+//   James Domingo, Green Code LLC
 
 namespace Landis.SpatialModeling
 {
@@ -34,16 +35,6 @@ namespace Landis.SpatialModeling
         /// The dimensions of the raster.
         /// </summary>
         Dimensions Dimensions
-        {
-            get;
-        }
-
-        //---------------------------------------------------------------------
-
-        /// <summary>
-        /// Metadata for the raster.
-        /// </summary>
-        IMetadata Metadata
         {
             get;
         }

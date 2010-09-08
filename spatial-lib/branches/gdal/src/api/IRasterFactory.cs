@@ -11,6 +11,7 @@
 //
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
+//   James Domingo, Green Code LLC
 
 namespace Landis.SpatialModeling
 {
@@ -99,9 +100,6 @@ namespace Landis.SpatialModeling
         /// <param name="dimensions">
         /// The dimensions of the raster file.
         /// </param>
-        /// <param name="metadata">
-        /// The metadata for the raster file.
-        /// </param>
         /// <exception cref="System.ArgumentException">
         ///     path is an empty string ("").
         /// </exception>
@@ -146,8 +144,7 @@ namespace Landis.SpatialModeling
         ///     </list>
         /// </exception>
         IOutputRaster<TPixel> CreateRaster<TPixel>(string     path,
-                                                   Dimensions dimensions,
-                                                   IMetadata  metadata)
+                                                   Dimensions dimensions)
             where TPixel : Pixel, new();
     }
 }
