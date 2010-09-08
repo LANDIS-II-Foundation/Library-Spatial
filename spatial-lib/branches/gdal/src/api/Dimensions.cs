@@ -12,10 +12,10 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.Grids
+namespace Landis.SpatialModeling
 {
     /// <summary>
-    /// The dimensions of a grid.
+    /// The dimensions (rows and columns) of a 2-dimensional rectangular grid.
     /// </summary>
     public struct Dimensions
     {
