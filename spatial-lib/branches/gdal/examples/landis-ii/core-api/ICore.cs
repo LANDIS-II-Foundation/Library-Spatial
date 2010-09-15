@@ -1,4 +1,4 @@
-namespace LandisII.Examples
+namespace LandisII.Examples.SimpleCore
 {
     /// <summary>
     /// Example of core interface passed to LANDIS-II extensions.
