@@ -6,8 +6,10 @@ namespace LandisII.Examples
     {
         public static void Main (string[] args)
         {
+            Console.WriteLine("Initializing LANDIS-II core...");
+            Core modelCore = new Core();
+
             // TO DO:
-            // Initialize the core.
             // Instantiate the main class of the example extension, passing
             //   the core to it.
             // Run the extension.
