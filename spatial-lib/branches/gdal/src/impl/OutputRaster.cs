@@ -43,9 +43,8 @@ namespace Landis.SpatialModeling.Implementation
         //---------------------------------------------------------------------
 
         public OutputRaster(string     path,
-                            Dimensions dimensions,
-                            IMetadata  metadata)
-            : base(path, dimensions, metadata)
+                            Dimensions dimensions)
+            : base(path, dimensions)
         {
             this.pixelsWritten = 0;
             this.disposed = false;

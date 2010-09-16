@@ -25,7 +25,6 @@ namespace Landis.SpatialModeling.Implementation
     {
         private string path;
         private Dimensions dimensions;
-        private IMetadata metadata;
         private long pixelCount;
 
         // This class is somewhat based on the design pattern outlined in the
@@ -70,25 +69,6 @@ namespace Landis.SpatialModeling.Implementation
         //---------------------------------------------------------------------
 
         /// <summary>
-        /// Metadata for the raster.
-        /// </summary>
-        public IMetadata Metadata
-        {
-            get {
-                if (disposed)
-                    throw new System.ObjectDisposedException(GetType().FullName);
-                return metadata;
-            }
-            protected set {
-                if (disposed)
-                    throw new System.ObjectDisposedException(GetType().FullName);
-                metadata = value;
-            }
-        }
-
-        //---------------------------------------------------------------------
-
-        /// <summary>
         /// The number of pixels in the raster.
         /// </summary>
         /// <remarks>
@@ -110,12 +90,10 @@ namespace Landis.SpatialModeling.Implementation
         /// Initializes a new instance.
         /// </summary>
         public Raster(string     path,
-                      Dimensions dimensions,
-                      IMetadata  metadata)
+                      Dimensions dimensions)
         {
             this.path = path;
             this.dimensions = dimensions;
-            this.metadata = metadata;
             this.disposed = false;
             UpdatePixelCount();
         }
