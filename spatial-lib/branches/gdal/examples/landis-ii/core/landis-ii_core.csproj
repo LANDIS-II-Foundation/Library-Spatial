@@ -35,6 +35,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\src\api\bin\Debug\Landis.SpatialModeling.dll</HintPath>
     </Reference>
+    <Reference Include="Landis.SpatialModeling.Implementation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\src\impl\bin\Debug\Landis.SpatialModeling.Implementation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
