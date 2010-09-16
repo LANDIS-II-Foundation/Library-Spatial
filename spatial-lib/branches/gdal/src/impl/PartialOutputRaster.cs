@@ -12,9 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-using Wisc.Flel.GeospatialModeling.Grids;
-
-namespace Wisc.Flel.GeospatialModeling.RasterIO
+namespace Landis.SpatialModeling.Implementation
 {
     public static class PartialOutputRaster
     {

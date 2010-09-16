@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.RasterIO
+namespace Landis.SpatialModeling.Implementation
 {
     /// <summary>
     /// An input file with raster data.
