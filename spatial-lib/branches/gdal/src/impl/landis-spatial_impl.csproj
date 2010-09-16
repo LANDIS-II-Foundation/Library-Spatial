@@ -31,15 +31,44 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="BandBlock.cs" />
+    <Compile Include="BandBuffer.cs" />
+    <Compile Include="BlockDimensions.cs" />
+    <Compile Include="DriverInfo.cs" />
+    <Compile Include="GdalBandIO.cs" />
+    <Compile Include="GdalDriverInfo.cs" />
+    <Compile Include="GdalInputRaster.cs" />
+    <Compile Include="GdalOutputRaster.cs" />
+    <Compile Include="GdalSystem.cs" />
+    <Compile Include="IInputBand.cs" />
+    <Compile Include="InputBand.cs" />
     <Compile Include="InputRaster.cs" />
+    <Compile Include="IOutputBand.cs" />
+    <Compile Include="IPixelBandGetter.cs" />
+    <Compile Include="IPixelBandSetter.cs" />
+    <Compile Include="OutputBand.cs" />
     <Compile Include="OutputRaster.cs" />
     <Compile Include="PartialOutputRaster.cs" />
+    <Compile Include="PixelBandAccessor.cs" />
+    <Compile Include="PixelBandGetter.cs" />
+    <Compile Include="PixelBandSetter.cs" />
     <Compile Include="Raster.cs" />
+    <Compile Include="RasterBandReader.cs" />
+    <Compile Include="RasterBandReaders.cs" />
+    <Compile Include="RasterBandWriter.cs" />
+    <Compile Include="RasterBandWriters.cs" />
+    <Compile Include="RasterFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\api\landis-spatial_api.csproj">
       <Project>{A9BDAD37-79DB-4F8A-8274-F414F89E7A21}</Project>
       <Name>landis-spatial_api</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="gdal_csharp, Version=1.0.3725.37720, Culture=neutral, PublicKeyToken=db5a52b08dc5b321">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\gdal\gdal-1.6.2\swig\csharp\gdal_csharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
