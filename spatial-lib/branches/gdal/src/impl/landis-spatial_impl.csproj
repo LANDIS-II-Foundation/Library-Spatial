@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{EC07F411-6BD6-4518-96BB-419CDFE55401}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Landis.SpatialModeling.Implementation</RootNamespace>
-    <AssemblyName>Landis.SpatialModeling.Implementation</AssemblyName>
+    <RootNamespace>Landis.SpatialModeling.CoreServices</RootNamespace>
+    <AssemblyName>Landis.SpatialModeling.CoreServices</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
