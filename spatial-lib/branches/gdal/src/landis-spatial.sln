@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "landis-spatial_api", "api\landis-spatial_api.csproj", "{A9BDAD37-79DB-4F8A-8274-F414F89E7A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "landis-spatial_impl", "impl\landis-spatial_impl.csproj", "{EC07F411-6BD6-4518-96BB-419CDFE55401}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "landis-spatial_core", "CoreServices\landis-spatial_core.csproj", "{EC07F411-6BD6-4518-96BB-419CDFE55401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

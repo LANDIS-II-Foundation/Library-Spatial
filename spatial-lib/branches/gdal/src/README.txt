@@ -1,16 +1,16 @@
 This solution contains two projects that represent the library's API and
-its implementation.  The implementation project uses the C# bindings to
+its core services.  The core-services project uses the C# bindings to
 GDAL.  Therefore, these bindings must be installed on the computer in
-order to build the implementation assembly.
+order to build the core-services assembly.
 
-In the actual C# project file (impl/landis-spatial_impl.csproj), the
+In the actual C# project file (CoreServices/landis-spatial_core.csproj), the
 <HintPath> element of the <Reference> element for the gdal_csharp
 assembly indicates where those C# bindings are located.  If necessary,
 change that path to match the actual path of the gdal_csharp assembly
 on your computer..
 
 The solution has only built on OS X (10.4, Tiger) using GDAL 1.6.2.
-In order to use the implementation assembly on OS X, one additional
+In order to use the core-services assembly on OS X, one additional
 library file must be copied manually from the C# bindings to bin/Debug
 or bin/Release.  The library file is located at:
 
