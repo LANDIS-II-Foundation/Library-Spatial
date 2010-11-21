@@ -31,12 +31,14 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="DriverInfo.cs" />
+    <Compile Include="GdalDriverInfo.cs" />
+    <Compile Include="PartialOutputRaster.cs" />
+    <Compile Include="RasterFactory.cs" />
     <Compile Include="raster-io\BandBlock.cs" />
     <Compile Include="raster-io\BandBuffer.cs" />
     <Compile Include="raster-io\BlockDimensions.cs" />
-    <Compile Include="DriverInfo.cs" />
     <Compile Include="raster-io\GdalBandIO.cs" />
-    <Compile Include="GdalDriverInfo.cs" />
     <Compile Include="raster-io\GdalInputRaster.cs" />
     <Compile Include="raster-io\GdalOutputRaster.cs" />
     <Compile Include="raster-io\GdalSystem.cs" />
@@ -48,7 +50,6 @@
     <Compile Include="raster-io\IPixelBandSetter.cs" />
     <Compile Include="raster-io\OutputBand.cs" />
     <Compile Include="raster-io\OutputRaster.cs" />
-    <Compile Include="PartialOutputRaster.cs" />
     <Compile Include="raster-io\PixelBandAccessor.cs" />
     <Compile Include="raster-io\PixelBandGetter.cs" />
     <Compile Include="raster-io\PixelBandSetter.cs" />
@@ -57,7 +58,6 @@
     <Compile Include="raster-io\RasterBandReaders.cs" />
     <Compile Include="raster-io\RasterBandWriter.cs" />
     <Compile Include="raster-io\RasterBandWriters.cs" />
-    <Compile Include="RasterFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\api\landis-spatial_api.csproj">

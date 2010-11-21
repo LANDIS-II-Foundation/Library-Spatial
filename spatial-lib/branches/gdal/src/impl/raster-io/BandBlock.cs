@@ -14,7 +14,7 @@
 
 using System;
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.Implementation.RasterIO
 {
     /// <summary>
     /// A block of data for a raster band.

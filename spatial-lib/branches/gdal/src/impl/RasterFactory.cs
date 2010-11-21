@@ -12,6 +12,7 @@
 // Contributors:
 //   James Domingo, Green Code LLC
 
+using Landis.SpatialModeling.Implementation.RasterIO;
 
 namespace Landis.SpatialModeling.Implementation
 {

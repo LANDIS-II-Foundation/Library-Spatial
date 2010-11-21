@@ -15,7 +15,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.Implementation.RasterIO
 {
     /// <summary>
     /// A buffer to hold data for a raster band.

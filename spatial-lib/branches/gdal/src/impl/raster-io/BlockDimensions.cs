@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, Green Code LLC
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.Implementation.RasterIO
 {
     /// <summary>
     /// Dimensions of a data block for a raster band.

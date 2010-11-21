@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.Implementation.RasterIO
 {
     /// <summary>
     /// An output raster file to which pixel data are written.
@@ -86,7 +86,7 @@ namespace Landis.SpatialModeling.Implementation
         {
             if (! disposed) {
                 if (pixelsWritten < PixelCount) {
-                    PartialOutputRaster.Closed(this);
+                    PartialOutputRaster.Closed(Path, this.Dimensions, pixelsWritten);
                 }
             }
             disposed = true;

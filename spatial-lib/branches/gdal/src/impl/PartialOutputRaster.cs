@@ -36,11 +36,12 @@ namespace Landis.SpatialModeling.Implementation
         /// <summary>
         /// Called when a partial output raster is closed.
         /// </summary>
-        public static void Closed(OutputRaster outputRaster)
+        public static void Closed(string     path,
+                                  Dimensions dimensions,
+                                  int        pixelsWritten)
         {
             if (CloseEvent != null)
-                CloseEvent(outputRaster.Path, outputRaster.Dimensions,
-                           outputRaster.PixelsWritten);
+                CloseEvent(path, dimensions, pixelsWritten);
         }
     }
 }
