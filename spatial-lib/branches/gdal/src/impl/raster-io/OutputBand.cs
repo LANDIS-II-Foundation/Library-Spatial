@@ -14,7 +14,7 @@
 
 using System;
 
-namespace Landis.SpatialModeling.Implementation.RasterIO
+namespace Landis.SpatialModeling.CoreServices.RasterIO
 {
     public class OutputBand<T> : IOutputBand
         where T : struct

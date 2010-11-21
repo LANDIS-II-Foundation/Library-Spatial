@@ -12,9 +12,9 @@
 // Contributors:
 //   James Domingo, Green Code LLC
 
-using Landis.SpatialModeling.Implementation.RasterIO;
+using Landis.SpatialModeling.CoreServices.RasterIO;
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.CoreServices
 {
     public class RasterFactory : IRasterFactory
     {

@@ -15,7 +15,7 @@
 using System;
 using OSGeo.GDAL;
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.CoreServices
 {
     public class DriverInfo
     {

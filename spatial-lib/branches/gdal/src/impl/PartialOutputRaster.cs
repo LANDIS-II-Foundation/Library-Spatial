@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.CoreServices
 {
     public static class PartialOutputRaster
     {

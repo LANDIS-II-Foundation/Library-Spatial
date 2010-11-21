@@ -16,7 +16,7 @@ using System;
 using System.Collections.Generic;
 using OSGeo.GDAL;
 
-namespace Landis.SpatialModeling.Implementation
+namespace Landis.SpatialModeling.CoreServices
 {
     public static class GdalDriverInfo
     {

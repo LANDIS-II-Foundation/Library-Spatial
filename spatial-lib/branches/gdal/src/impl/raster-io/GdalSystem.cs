@@ -14,7 +14,7 @@
 
 using OSGeo.GDAL;
 
-namespace Landis.SpatialModeling.Implementation.RasterIO
+namespace Landis.SpatialModeling.CoreServices.RasterIO
 {
     public static class GdalSystem
     {
