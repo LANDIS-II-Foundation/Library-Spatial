@@ -31,32 +31,32 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="BandBlock.cs" />
-    <Compile Include="BandBuffer.cs" />
-    <Compile Include="BlockDimensions.cs" />
+    <Compile Include="raster-io\BandBlock.cs" />
+    <Compile Include="raster-io\BandBuffer.cs" />
+    <Compile Include="raster-io\BlockDimensions.cs" />
     <Compile Include="DriverInfo.cs" />
-    <Compile Include="GdalBandIO.cs" />
+    <Compile Include="raster-io\GdalBandIO.cs" />
     <Compile Include="GdalDriverInfo.cs" />
-    <Compile Include="GdalInputRaster.cs" />
-    <Compile Include="GdalOutputRaster.cs" />
-    <Compile Include="GdalSystem.cs" />
-    <Compile Include="IInputBand.cs" />
-    <Compile Include="InputBand.cs" />
-    <Compile Include="InputRaster.cs" />
-    <Compile Include="IOutputBand.cs" />
-    <Compile Include="IPixelBandGetter.cs" />
-    <Compile Include="IPixelBandSetter.cs" />
-    <Compile Include="OutputBand.cs" />
-    <Compile Include="OutputRaster.cs" />
+    <Compile Include="raster-io\GdalInputRaster.cs" />
+    <Compile Include="raster-io\GdalOutputRaster.cs" />
+    <Compile Include="raster-io\GdalSystem.cs" />
+    <Compile Include="raster-io\IInputBand.cs" />
+    <Compile Include="raster-io\InputBand.cs" />
+    <Compile Include="raster-io\InputRaster.cs" />
+    <Compile Include="raster-io\IOutputBand.cs" />
+    <Compile Include="raster-io\IPixelBandGetter.cs" />
+    <Compile Include="raster-io\IPixelBandSetter.cs" />
+    <Compile Include="raster-io\OutputBand.cs" />
+    <Compile Include="raster-io\OutputRaster.cs" />
     <Compile Include="PartialOutputRaster.cs" />
-    <Compile Include="PixelBandAccessor.cs" />
-    <Compile Include="PixelBandGetter.cs" />
-    <Compile Include="PixelBandSetter.cs" />
-    <Compile Include="Raster.cs" />
-    <Compile Include="RasterBandReader.cs" />
-    <Compile Include="RasterBandReaders.cs" />
-    <Compile Include="RasterBandWriter.cs" />
-    <Compile Include="RasterBandWriters.cs" />
+    <Compile Include="raster-io\PixelBandAccessor.cs" />
+    <Compile Include="raster-io\PixelBandGetter.cs" />
+    <Compile Include="raster-io\PixelBandSetter.cs" />
+    <Compile Include="raster-io\Raster.cs" />
+    <Compile Include="raster-io\RasterBandReader.cs" />
+    <Compile Include="raster-io\RasterBandReaders.cs" />
+    <Compile Include="raster-io\RasterBandWriter.cs" />
+    <Compile Include="raster-io\RasterBandWriters.cs" />
     <Compile Include="RasterFactory.cs" />
   </ItemGroup>
   <ItemGroup>
