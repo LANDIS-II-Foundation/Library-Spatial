@@ -35,9 +35,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\src\api\bin\Debug\Landis.SpatialModeling.dll</HintPath>
     </Reference>
-    <Reference Include="Landis.SpatialModeling.Implementation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Landis.SpatialModeling.CoreServices, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\src\impl\bin\Debug\Landis.SpatialModeling.Implementation.dll</HintPath>
+      <HintPath>..\..\..\src\CoreServices\bin\Debug\Landis.SpatialModeling.CoreServices.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

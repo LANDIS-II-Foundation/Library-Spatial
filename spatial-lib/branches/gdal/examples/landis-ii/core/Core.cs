@@ -1,5 +1,5 @@
 using Landis.SpatialModeling;
-using Landis.SpatialModeling.Implementation;
+using Landis.SpatialModeling.CoreServices;
 using System;
 
 namespace LandisII.Examples
