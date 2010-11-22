@@ -1,4 +1,4 @@
-// Copyright 2004-2006 University of Wisconsin
+// Copyright 2004-2006,2010 University of Wisconsin
 // All rights reserved. 
 //
 // The copyright holders license this file under the New (3-clause) BSD
@@ -11,8 +11,7 @@
 //
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
-
-using CellLocation = Wisc.Flel.GeospatialModeling.Grids.Location;
+//   James Domingo, Green Code LLC
 
 namespace Landis.SpatialModeling
 {
@@ -113,28 +112,6 @@ namespace Landis.SpatialModeling
         public static implicit operator bool(Location location)
         {
             return (location.row > 0) && (location.column > 0);
-        }
-
-        //---------------------------------------------------------------------
-
-        /// <summary>
-        /// Converts a site location in a landscape to a cell location in a
-        /// grid.
-        /// </summary>
-        public static implicit operator CellLocation(Location location)
-        {
-            return new CellLocation(location.Row, location.Column);
-        }
-
-        //---------------------------------------------------------------------
-
-        /// <summary>
-        /// Converts a cell location in a grid to a site location in a
-        /// landscape.
-        /// </summary>
-        public static implicit operator Location(CellLocation cellLocation)
-        {
-            return new Location(cellLocation.Row, cellLocation.Column);
         }
 
         //---------------------------------------------------------------------
