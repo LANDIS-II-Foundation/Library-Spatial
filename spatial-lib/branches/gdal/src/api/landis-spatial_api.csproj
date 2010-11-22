@@ -31,13 +31,30 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Compile Include="ActiveSite.cs" />
     <Compile Include="Band.cs" />
     <Compile Include="Dimensions.cs" />
+    <Compile Include="Grid.cs" />
+    <Compile Include="IGrid.cs" />
+    <Compile Include="IIndexableGrid.cs" />
+    <Compile Include="IInputGrid.cs" />
     <Compile Include="IInputRaster.cs" />
+    <Compile Include="ILandscape.cs" />
     <Compile Include="IOutputRaster.cs" />
     <Compile Include="IRaster.cs" />
     <Compile Include="IRasterFactory.cs" />
+    <Compile Include="ISiteVar.cs" />
+    <Compile Include="ISiteVariable.cs" />
+    <Compile Include="InactiveSite.cs" />
+    <Compile Include="InactiveSiteMode.cs" />
+    <Compile Include="Location.cs" />
     <Compile Include="Pixel.cs" />
     <Compile Include="PixelBand.cs" />
+    <Compile Include="RelativeLocation.cs" />
+    <Compile Include="RowMajor.cs" />
+    <Compile Include="Site.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
 </Project>

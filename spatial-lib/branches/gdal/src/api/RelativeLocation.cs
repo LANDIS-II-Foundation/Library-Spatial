@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// The location of a site relative to another site (known as the origin

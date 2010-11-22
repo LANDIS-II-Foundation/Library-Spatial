@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.Grids
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// Base class for grids.

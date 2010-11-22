@@ -12,11 +12,11 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-using Wisc.Flel.GeospatialModeling.Grids;
+using Landis.SpatialModeling;
 
 using System.Collections.Generic;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling
 {
     public interface ILandscape
         : IGrid, IEnumerable<ActiveSite>

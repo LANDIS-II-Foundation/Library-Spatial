@@ -14,7 +14,7 @@
 
 using System.Diagnostics;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// An individual active site on a landscape.

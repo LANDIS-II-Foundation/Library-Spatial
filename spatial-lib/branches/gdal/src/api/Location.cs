@@ -14,7 +14,7 @@
 
 using CellLocation = Wisc.Flel.GeospatialModeling.Grids.Location;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling
 {
     /// <summary>
     /// A location of a site on a landscape.
