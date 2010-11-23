@@ -35,6 +35,17 @@
     <Compile Include="GdalDriverInfo.cs" />
     <Compile Include="PartialOutputRaster.cs" />
     <Compile Include="RasterFactory.cs" />
+    <Compile Include="Landscapes\ActiveSiteEnumerator.cs" />
+    <Compile Include="Landscapes\DataIndexes\Array2D.cs" />
+    <Compile Include="Landscapes\DataIndexes\Collection.cs" />
+    <Compile Include="Landscapes\DataIndexes\Enumerator.cs" />
+    <Compile Include="Landscapes\EnumeratorBase.cs" />
+    <Compile Include="Landscapes\InputGrid.cs" />
+    <Compile Include="Landscapes\Landscape.cs" />
+    <Compile Include="Landscapes\SiteEnumerator.cs" />
+    <Compile Include="Landscapes\SiteVar.cs" />
+    <Compile Include="Landscapes\SiteVarDistinct.cs" />
+    <Compile Include="Landscapes\SiteVarShare.cs" />
     <Compile Include="RasterIO\BandBlock.cs" />
     <Compile Include="RasterIO\BandBuffer.cs" />
     <Compile Include="RasterIO\BlockDimensions.cs" />
@@ -70,5 +81,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\gdal\gdal-1.6.2\swig\csharp\gdal_csharp.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
   </ItemGroup>
 </Project>
