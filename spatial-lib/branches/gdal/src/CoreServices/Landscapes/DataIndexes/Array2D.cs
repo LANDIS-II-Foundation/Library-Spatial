@@ -12,7 +12,9 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
+#if LOG4NET
 using log4net;
+#endif
 using System.Reflection;
 using System.Text;
 
@@ -27,8 +29,10 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes.DataIndexes
     {
         private uint[,] indexes;
 
+#if LOG4NET
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         private static readonly bool isDebugEnabled = log.IsDebugEnabled;
+#endif
 
         //---------------------------------------------------------------------
 
@@ -60,6 +64,7 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes.DataIndexes
             ActiveLocationCount = count;
             InactiveLocationCount = (rows * columns) - ActiveLocationCount;
 
+#if LOG4NET
             if (isDebugEnabled) {
                 log.Debug("Active Site Locations");
                 log.Debug("");
@@ -81,6 +86,7 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes.DataIndexes
                     log.Debug(line.ToString());
                 }
             }
+#endif
         }
 
         //---------------------------------------------------------------------
