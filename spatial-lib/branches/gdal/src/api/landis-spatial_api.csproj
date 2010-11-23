@@ -32,6 +32,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="ActiveSite.cs" />
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Band.cs" />
     <Compile Include="Dimensions.cs" />
     <Compile Include="Grid.cs" />
