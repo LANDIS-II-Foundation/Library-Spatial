@@ -53,7 +53,6 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes
         /// </summary>
         protected void Validate(Site site)
         {
-//            Trace.Assert(site != null);   NO LONGER RELEVANT BECAUSE Site is a struct, not a class
             Trace.Assert(site.Landscape == landscape);
         }
     }
