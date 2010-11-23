@@ -20,6 +20,14 @@ namespace LandisII.Examples.SimpleExtension
         {
             Console.WriteLine("Running the example LANDIS-II extension...");
 
+            Console.WriteLine("Ecoregion codes:");
+            foreach (Site site in core.Landscape.AllSites) {
+                Console.Write("  {0}", core.EcoregionCodes[site]);
+                if (site.Location.Column == core.Landscape.Columns)
+                    Console.WriteLine();
+            }
+            Console.WriteLine();
+
             short[,] data = new short[90,140];
             int rows    = data.GetLength(0);
             int columns = data.GetLength(1);
