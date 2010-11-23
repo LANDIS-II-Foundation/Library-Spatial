@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Landis.SpatialModeling
+namespace Landis.SpatialModeling.CoreServices
 {
     /// <summary>
     /// An input grid of data values that are read from the upper-left corner

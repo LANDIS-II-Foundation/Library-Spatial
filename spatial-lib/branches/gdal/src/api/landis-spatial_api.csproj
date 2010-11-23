@@ -35,10 +35,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Band.cs" />
     <Compile Include="Dimensions.cs" />
-    <Compile Include="Grid.cs" />
     <Compile Include="IGrid.cs" />
-    <Compile Include="IIndexableGrid.cs" />
-    <Compile Include="IInputGrid.cs" />
     <Compile Include="IInputRaster.cs" />
     <Compile Include="ILandscape.cs" />
     <Compile Include="IOutputRaster.cs" />

@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Landis.SpatialModeling
+namespace Landis.SpatialModeling.CoreServices
 {
     /// <summary>
     /// A grid whose cells can be accessed by their locations.
