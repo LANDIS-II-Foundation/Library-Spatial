@@ -36,6 +36,7 @@
     <Compile Include="Grid.cs" />
     <Compile Include="IIndexableGrid.cs" />
     <Compile Include="IInputGrid.cs" />
+    <Compile Include="LandscapeFactory.cs" />
     <Compile Include="PartialOutputRaster.cs" />
     <Compile Include="RasterFactory.cs" />
     <Compile Include="Landscapes\ActiveSiteEnumerator.cs" />

@@ -17,7 +17,7 @@ using System.Collections.Generic;
 
 namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
-    public class Landscape
+    internal class Landscape
         : Grid, ILandscape, IEnumerable<Site>
     {
         private DataIndexes.Collection dataIndexes;
@@ -87,7 +87,7 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes
         /// <param name="activeSites">
         /// A grid that indicates which sites are active.
         /// </param>
-        public Landscape(IInputGrid<bool> activeSites)
+        internal Landscape(IInputGrid<bool> activeSites)
             : base(activeSites.Dimensions)
         {
             Initialize(activeSites);
@@ -101,7 +101,7 @@ namespace Landis.SpatialModeling.CoreServices.Landscapes
         /// <param name="activeSites">
         /// A grid that indicates which sites are active.
         /// </param>
-        public Landscape(IIndexableGrid<bool> activeSites)
+        internal Landscape(IIndexableGrid<bool> activeSites)
             : base(activeSites.Dimensions)
         {
             Initialize(new InputGrid<bool>(activeSites));
