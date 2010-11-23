@@ -12,7 +12,7 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
     /// <summary>
     /// A site variable where the inactive sites share a common value.

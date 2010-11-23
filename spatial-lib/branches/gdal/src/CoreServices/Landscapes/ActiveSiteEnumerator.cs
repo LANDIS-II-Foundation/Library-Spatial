@@ -15,7 +15,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
     /// <summary>
     /// Enumerator for the active sites in a landscape.

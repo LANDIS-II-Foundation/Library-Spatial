@@ -12,12 +12,10 @@
 // Contributors:
 //   James Domingo, UW-Madison, Forest Landscape Ecology Lab
 
-using Wisc.Flel.GeospatialModeling.Grids;
-
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
     /// <summary>
     /// Enumerator for all the sites in a landscape.

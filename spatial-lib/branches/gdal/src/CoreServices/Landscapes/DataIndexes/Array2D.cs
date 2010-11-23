@@ -15,9 +15,8 @@
 using log4net;
 using System.Reflection;
 using System.Text;
-using Wisc.Flel.GeospatialModeling.Grids;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes.DataIndexes
+namespace Landis.SpatialModeling.CoreServices.Landscapes.DataIndexes
 {
     /// <summary>
     /// A collection of the data indexes implemented using a 2-dimensional

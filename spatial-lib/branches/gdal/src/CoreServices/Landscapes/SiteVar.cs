@@ -14,7 +14,7 @@
 
 using System.Diagnostics;
 
-namespace Wisc.Flel.GeospatialModeling.Landscapes
+namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
     public abstract class SiteVar<T>
     {
@@ -53,7 +53,7 @@ namespace Wisc.Flel.GeospatialModeling.Landscapes
         /// </summary>
         protected void Validate(Site site)
         {
-            Trace.Assert(site != null);
+//            Trace.Assert(site != null);   NO LONGER RELEVANT BECAUSE Site is a struct, not a class
             Trace.Assert(site.Landscape == landscape);
         }
     }

@@ -14,7 +14,7 @@
 
 using System.Collections.Generic;
 
-namespace Wisc.Flel.GeospatialModeling.Grids
+namespace Landis.SpatialModeling.CoreServices.Landscapes
 {
     /// <summary>
     /// An input grid with data values.
