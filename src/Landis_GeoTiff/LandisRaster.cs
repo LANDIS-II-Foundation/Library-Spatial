@@ -50,7 +50,7 @@ namespace Landis_GeoTiff
                 else
                     theRaster.SaveAs(theRaster.fileName);
             }
-            catch (IOException ex)
+            catch (IOException)
             {
 
             }
